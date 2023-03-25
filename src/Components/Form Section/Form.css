@@ -1,0 +1,114 @@
+.form_section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+.form_section h1 {
+    text-align: start;
+    font-size: 40px;
+
+}
+
+.form_section p {
+    text-align: start;
+    font-size: 26px;
+    width: 60%;
+}
+
+.form_input_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C140F;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.form_input_section h1 {
+    font-size: 35px;
+}
+
+.form_input_section p {
+    font-size: 20px;
+    width: 70%;
+}
+
+.form_input_div input {
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    font-size: 15px;
+    position: relative;
+}
+
+.form_input_div button {
+    position: absolute;
+    right: 145px;
+    margin-top: 7.5px;
+    background-color: #E87D0E;
+    padding: 10px 25px;
+    border: none !important;
+    color: white;
+    border-radius: 6px;
+}
+
+.form_input_div button:hover {
+    background-color: #db7304;
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px) {
+    .form_section {
+        display: flex;
+
+    }
+
+    .form_input_section {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .form_input_div input {
+        margin-top: 70px;
+        width: 200px;
+    }
+
+    .form_input_div button {
+        position: absolute;
+        margin-top: 78px;
+        right: 90px;
+    }
+
+    .form_input_section h1 {
+        font-size: 30px;
+    }
+
+    .form_input_section p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .form_input_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_input_div button {
+        position: absolute;
+        right: 230px;
+
+    }
+
+    .form_input_section p {
+        font-size: 19px;
+        width: 100%;
+    }
+}
